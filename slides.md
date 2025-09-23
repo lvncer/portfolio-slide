@@ -46,6 +46,7 @@ fonts:
     <p>さいたまIT・WEB専門学校 高度専門士情報技術科</p>
     <p>名前：高橋 希尋</p>
     <p>趣味：AI駆動開発、ガジェット、テックイベント</p>
+    <p>基本情報技術者 / 情報セキュリティマネジメント</p>
     <p>
       <a href="https://www.lvncer.dev/" class="text-blue-600 hover:text-blue-800">www.lvncer.dev/</a>
     </p>
@@ -57,11 +58,11 @@ fonts:
 
 ---
 
-<div class="bg-white flex items-center justify-start gap-8 p-8">
+<div class="flex items-center justify-start gap-8 p-8">
   <h1 class="text-4xl font-bold">スキル紹介</h1>
 </div>
 
-<div class="bg-white flex items-start justify-start gap-24 px-4 pl-32">
+<div class="flex items-center justify-center gap-24">
   <div class="flex-shrink-0">
     <ul class="list-disc list-inside mb-4">
       <li>Python
@@ -77,7 +78,9 @@ fonts:
         </ul>
       </li>
       <li>PHP</li>
-      <li>Ruby on Rails / Swift ...</li>
+      <li>Ruby on Rails / Swift / Go ...</li>
+      <li>Web セキュリティ</li>
+      <li>ハードウェア</li>
     </ul>
   </div>
   <div class="flex-shrink-0">
@@ -125,11 +128,11 @@ fonts:
           <li>オープンな会話を推進し、インシデント発生時は即時連絡</li>
         </ul>
       </li>
-      <li>豊富な実務経験
+      <li>豊富な経験
         <ul class="list-disc list-inside mb-4">
           <li>ドローンプログラミング全国大会で優勝経験あり</li>
-          <li>学校内外でさまざまなプロジェクトマネージャーとして活躍</li>
-          <li>ハードウェアやセキュリティ分野にも知見あり</li>
+          <li>学校内外でさまざまなプロジェクトマネージャーを担当</li>
+          <li>学内の授業アシスタントで後輩にサポート</li>
         </ul>
       </li>
     </ol>
