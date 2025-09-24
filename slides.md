@@ -5,8 +5,8 @@ fonts:
   sans: "Josefin Sans"
 ---
 
-<h1 class="text-black text-4xl font-medium text-center mb-4">Portfolio Slide</h1>
-<div class="text-black text-lg font-medium text-center mb-4">Takahashi Kihiro</div>
+<h1 class="text-4xl font-medium text-center">Portfolio Slide</h1>
+<div class="text-md font-medium text-center">Takahashi Kihiro</div>
 
 ---
 
@@ -14,7 +14,7 @@ fonts:
   <h1 class="text-4xl font-bold">アジェンダ</h1>
 </div>
 
-<div class="bg-white flex items-start justify-center gap-32 pt-8">
+<div class="flex items-start justify-center gap-32 pt-8">
   <div>
     <ol class="text-xl">
       <li class="pb-4">自己紹介</li>
@@ -34,25 +34,37 @@ fonts:
 
 ---
 
-<div class="bg-white flex items-center justify-start gap-8 p-8">
+<div class="flex items-center justify-start gap-8 p-8">
   <h1 class="text-4xl font-bold">自己紹介</h1>
 </div>
 
-<div class="bg-white flex items-center justify-center gap-16 p-4 pl-24">
+<div class="flex items-center justify-center gap-16 pl-24">
   <div class="flex-shrink-0">
     <img src="./images/D078A827-B55A-4996-89F9-220B74E15FC1_4_5005_c.jpeg" alt="Profile" class="rounded-full w-64 h-64" />
   </div>
   <div class="flex-grow">
-    <p>さいたまIT・WEB専門学校 高度専門士情報技術科</p>
-    <p>名前：高橋 希尋</p>
-    <p>趣味：AI駆動開発、ガジェット、テックイベント</p>
-    <p>基本情報技術者 / 情報セキュリティマネジメント</p>
-    <p>
-      <a href="https://www.lvncer.dev/" class="text-blue-600 hover:text-blue-800">www.lvncer.dev/</a>
-    </p>
-    <p>
-      <a href="https://x.com/kihhi_" class="text-blue-600 hover:text-blue-800">@kihhi_</a>
-    </p>
+    <ul class="list-disc list-inside">
+      <li>さいたまIT・WEB専門学校 4 年制</li>
+      <li>名前：高橋 希尋</li>
+      <li>趣味
+        <ul class="list-disc list-inside">
+          <li>AI駆動開発、ガジェット、テックイベント</li>
+        </ul>
+      </li>
+      <li>資格
+        <ul class="list-disc list-inside">
+          <li>基本情報技術者</li>
+          <li>情報セキュリティマネジメント</li>
+          <li>普通自動車第一種運転免許</li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://www.lvncer.dev/" class="text-blue-400">https://www.lvncer.dev/</a>
+      </li>
+      <li>
+        <a href="https://x.com/kihhi_" class="text-blue-400">@kihhi_</a>
+      </li>
+    </ul>
   </div>
 </div>
 
@@ -62,9 +74,9 @@ fonts:
   <h1 class="text-4xl font-bold">スキル紹介</h1>
 </div>
 
-<div class="flex items-center justify-center gap-24">
+<div class="flex items-start justify-center gap-24">
   <div class="flex-shrink-0">
-    <ul class="list-disc list-inside mb-4">
+    <ul class="list-disc list-inside">
       <li>Python
         <ul class="list-disc list-inside mb-4">
           <li>Fast API / Flask / Django</li>
@@ -80,26 +92,26 @@ fonts:
       <li>PHP</li>
       <li>Ruby on Rails / Swift / Go ...</li>
       <li>Web セキュリティ</li>
-      <li>ハードウェア</li>
     </ul>
   </div>
   <div class="flex-shrink-0">
-    <ul class="list-disc list-inside mb-4">
-      <li>Database
-        <ul class="list-disc list-inside mb-4">
-          <li>MySQL / PostgreSQL</li>
+    <ul class="list-disc list-inside">
+      <li class="mb-2">データベース
+        <ul class="list-disc list-inside">
+          <li>MySQL / PostgreSQL / NoSQL</li>
         </ul>
       </li>
-      <li>Devs / Infla
-        <ul class="list-disc list-inside mb-4">
+      <li class="mb-2">開発者ツール / インフラ
+        <ul class="list-disc list-inside">
+          <li>Figma</li>
           <li>Github / Gitlab</li>
           <li>Docker / k8s</li>
           <li>AWS</li>
-          <li>Vercel</li>
+          <li>Clerk / Supabase / Neon / Vercel</li>
         </ul>
       </li>
       <li>AI
-        <ul class="list-disc list-inside mb-4">
+        <ul class="list-disc list-inside">
           <li>Cursor / Devin</li>
         </ul>
       </li>
@@ -164,7 +176,7 @@ fonts:
   </div>
 </div>
 
-<div class="bg-white flex items-start justify-start pl-36 gap-24">
+<div class="flex items-start justify-start pl-36 gap-24">
   <div class="flex-shrink-0">
     <div class="text-left">
       <h5 class="font-bold">なぜ開発したか</h5>
@@ -221,11 +233,11 @@ fonts:
 
 ---
 
-<div class="bg-white flex items-center justify-start gap-8 p-8">
+<div class="flex items-center justify-start gap-8 p-8">
   <h1 class="text-4xl font-bold">チーム開発作品 1.</h1>
 </div>
 
-<div class="bg-white flex items-start justify-start pl-16 pb-2 gap-12">
+<div class="flex items-center justify-center gap-12">
   <div class="flex-shrink-0 text-center justify-center">
     <img src="https://www.siw.ac.jp/wp-content/uploads/2025/04/aba1dd9afd994bc383f5259806be7bb4.jpeg" class="rounded-2xl mb-4 mx-auto block w-86" />
   </div>
@@ -260,20 +272,20 @@ fonts:
 </div>
 
 <div class="flex items-end justify-end text-xs">
-  <a href="https://www.siw.ac.jp/archives/news/6050" class="text-blue-600 hover:text-blue-800">https://www.siw.ac.jp/archives/news/6050</a>
+  <a href="https://www.siw.ac.jp/archives/news/6050" class="text-gray-400">https://www.siw.ac.jp/archives/news/6050</a>
 </div>
 
 ---
 
-<div class="bg-white flex items-center justify-start gap-8 p-8">
+<div class="flex items-center justify-start gap-8 p-8">
   <h1 class="text-4xl font-bold">チーム開発作品 2.</h1>
 </div>
 
-<div class="bg-white flex items-start justify-start pl-24 pb-2 gap-12">
+<div class="flex items-center justify-center gap-16">
   <div class="flex-shrink-0">
     <h3 class="text-xl font-bold">社内工数管理システム worktrack</h3>
-    <div class="text-sm font-medium pl-18 pb-3 text-right">
-      <a href="https://zenn.dev/tkszenn/articles/1d5e63cfd0d5bc" class="text-blue-600 hover:text-blue-800">zenn.dev/tkszenn/articles/1d5e63cfd0d5bc</a>
+    <div class="flex items-end justify-end text-sm text-right mb-3">
+      <a href="https://zenn.dev/tkszenn/articles/1d5e63cfd0d5bc" class="text-blue-400">zenn.dev/tkszenn/articles/1d5e63cfd0d5bc</a>
     </div>
     <div class="text-left">
       <h5 class="font-bold">使用技術スタック</h5>
@@ -282,7 +294,7 @@ fonts:
       </ul>
       <h5 class="font-bold">担当</h5>
       <ul class="list-disc list-inside text-sm">
-        <li>プロダクトマネージャー</li>
+        <li>プロダクトマネージャー、DB設計</li>
       </ul>
       <h5 class="font-bold">期間</h5>
       <ul class="list-disc list-inside text-sm">
@@ -304,10 +316,7 @@ fonts:
 </div>
 
 ---
-layout: center
-background: white
----
 
-<div class="bg-white text-center">
+<div class="flex flex-col justify-center items-center h-full text-center">
   <h1 class="text-4xl font-bold mb-4">ご清聴ありがとうございました</h1>
 </div>
