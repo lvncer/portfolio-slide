@@ -2,35 +2,11 @@
 theme: default
 colorSchema: light
 fonts:
-  sans: "Josefin Sans"
+  sans: "Lato"
 ---
 
 <h1 class="text-4xl font-medium text-center">Portfolio Slide</h1>
-<div class="text-md font-medium text-center">Takahashi Kihiro</div>
-
----
-
-<div class="gap-8 p-8">
-  <h1 class="text-4xl font-bold">アジェンダ</h1>
-</div>
-
-<div class="flex items-start justify-center gap-32 pt-8">
-  <div>
-    <ol class="text-xl">
-      <li class="pb-4">自己紹介</li>
-      <li class="pb-4">スキル紹介</li>
-      <li class="pb-4">自己PR</li>
-    </ol>
-  </div>
-  <div>
-    <ol class="text-xl" start="4">
-      <li class="pb-4">個人開発紹介 1</li>
-      <li class="pb-4">個人開発紹介 2</li>
-      <li class="pb-4">チーム開発紹介 1</li>
-      <li class="pb-4">チーム開発紹介 2</li>
-    </ol>
-  </div>
-</div>
+<div class="text-sm font-extralight text-center">Takahashi Kihiro</div>
 
 ---
 
@@ -59,10 +35,10 @@ fonts:
         </ul>
       </li>
       <li>
-        <a href="https://www.lvncer.dev/" class="text-blue-400">https://www.lvncer.dev/</a>
+        <dev class="text-blue-400">https://www.lvncer.dev/</dev>
       </li>
       <li>
-        <a href="https://x.com/kihhi_" class="text-blue-400">@kihhi_</a>
+        <dev class="text-blue-400">@kihhi_</dev>
       </li>
     </ul>
   </div>
@@ -74,97 +50,65 @@ fonts:
   <h1 class="text-4xl font-bold">スキル紹介</h1>
 </div>
 
-<div class="flex items-start justify-center gap-24">
+<div class="flex items-start justify-start pl-32 gap-36">
   <div class="flex-shrink-0">
-    <ul class="list-disc list-inside">
-      <li>Python
-        <ul class="list-disc list-inside mb-4">
-          <li>Fast API / Flask / Django</li>
-          <li>Pandas / Scikit-learn</li>
-        </ul>
-      </li>
-      <li>JavaScript / TypeScript
-        <ul class="list-disc list-inside mb-4">
-          <li>Node.js / Tailwind CSS</li>
-          <li>React / Next.js</li>
-        </ul>
-      </li>
-      <li>PHP</li>
-      <li>Ruby on Rails / Swift / Go ...</li>
-      <li>Web セキュリティ</li>
-    </ul>
+    <div class="text-left">
+      <h4 class="font-semibold mb-1">Python</h4>
+      <ul class="list-disc list-inside pl-6 mb-3 text-sm">
+        <li>Fast API / Flask / Django</li>
+        <li>機械学習</li>
+      </ul>
+      <h4 class="font-semibold mb-1">Javascript / Typescript</h4>
+      <ul class="list-disc list-inside pl-6 mb-3 text-sm">
+        <li>Tailwind CSS</li>
+        <li>React / Next.js</li>
+        <li>Node.js / Express</li>
+        <li>Biome</li>
+        <li>Prisma / Drizzle</li>
+      </ul>
+      <h5 class="font-bold mb-1">PHP</h5>
+      <h5 class="font-bold mb-1">Ruby on Rails / Swift / Go ...</h5>
+      <h5 class="font-bold">Web セキュリティ</h5>
+    </div>
   </div>
   <div class="flex-shrink-0">
-    <ul class="list-disc list-inside">
-      <li class="mb-2">データベース
-        <ul class="list-disc list-inside">
-          <li>MySQL / PostgreSQL / NoSQL</li>
-        </ul>
-      </li>
-      <li class="mb-2">開発者ツール / インフラ
-        <ul class="list-disc list-inside">
-          <li>Figma</li>
-          <li>Github / Gitlab</li>
-          <li>Docker / k8s</li>
-          <li>AWS</li>
-          <li>Clerk / Supabase / Neon / Vercel</li>
-        </ul>
-      </li>
-      <li>AI
-        <ul class="list-disc list-inside">
-          <li>Cursor / Devin</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div>
-
----
-
-<div class="flex items-center justify-start gap-8 p-8">
-  <h1 class="text-4xl font-bold">自己PR</h1>
-</div>
-
-<div class="flex items-center justify-center">
-  <div class="flex-shrink-0">
-    <ol class="list-disc list-inside mb-4">
-      <li>コミュニケーション能力の高さ
-        <ul class="list-disc list-inside mb-4">
-          <li>チーム開発でのスムーズなやりとり</li>
-          <li>クライアントとの折衝経験</li>
-        </ul>
-      </li>
-      <li>主体性・誠実性の高さ
-        <ul class="list-disc list-inside mb-4">
-          <li>個人開発でAIなどの最新情報を常にキャッチアップ</li>
-          <li>オープンな会話を推進し、インシデント発生時は即時連絡</li>
-        </ul>
-      </li>
-      <li>豊富な経験
-        <ul class="list-disc list-inside mb-4">
-          <li>ドローンプログラミング全国大会で優勝経験あり</li>
-          <li>学校内外でさまざまなプロジェクトマネージャーを担当</li>
-          <li>学内の授業アシスタントで後輩にサポート</li>
-        </ul>
-      </li>
-    </ol>
+    <div class="text-left">
+      <h4 class="font-semibold mb-1">データベース</h4>
+      <ul class="list-disc list-inside pl-6 mb-3 text-sm">
+        <li>MySQL</li>
+        <li>PostgreSQL (Supabase / Neon / RDS)</li>
+        <li>NoSQL (Firebase)</li>
+      </ul>
+      <h4 class="font-semibold mb-1">開発者ツール、インフラ</h4>
+      <ul class="list-disc list-inside pl-6 mb-3 text-sm">
+        <li>Figma</li>
+        <li>Github / Gitlab</li>
+        <li>Docker / k8s</li>
+        <li>AWS / Vercel</li>
+        <li>Clerk</li>
+      </ul>
+      <h5 class="font-bold">AI</h5>
+      <ul class="list-disc list-inside pl-6 mb-3 text-sm">
+        <li>Cursor / Devin</li>
+      </ul>
+    </div>
   </div>
 </div>
 
 ---
 
 <div class="flex items-center justify-start gap-8 p-8">
-  <h1 class="text-4xl font-bold">個人開発作品 1.</h1>
+  <h1 class="text-4xl font-bold">個人開発作品 1. LT 登録サイト</h1>
 </div>
 
-<div class="flex items-start justify-start pl-20 pb-2 gap-24">
+<div class="flex items-start justify-start pl-28 pb-2 gap-24">
   <div>
     <img src="./images/0B644784-C52B-485E-A3AA-7F4A582CDBC1_1_201_a.jpeg" class="rounded-2xl mb-4 mx-auto block w-64" />
   </div>
   <div>
-    <h3 class="text-xl font-bold">LT登録サイト</h3>
+    <h3 class="text-xl font-bold"></h3>
     <div class="text-sm font-medium pb-3 text-right">
-      <a href="https://siw-lt.vercel.app/" class="text-blue-600 hover:text-blue-800">siw-lt.vercel.app/</a>
+      <div class="text-blue-400">siw-lt.vercel.app/</div>
     </div>
     <div class="text-left">
       <h5 class="font-bold mb-2">使用技術スタック</h5>
@@ -176,7 +120,7 @@ fonts:
   </div>
 </div>
 
-<div class="flex items-start justify-start pl-36 gap-24">
+<div class="flex items-start justify-start pl-36 gap-20">
   <div class="flex-shrink-0">
     <div class="text-left">
       <h5 class="font-bold">なぜ開発したか</h5>
@@ -202,32 +146,34 @@ fonts:
   <h1 class="text-4xl font-bold">個人開発作品 2.</h1>
 </div>
 
-<div class="flex items-center justify-center gap-24">
+<div class="flex items-center justify-center gap-18">
   <div>
-    <img src="./images/echoes.jpeg" class="rounded-2xl mb-4 mx-auto block w-72" />
+    <img src="./images/echoes.jpeg" class="rounded-2xl mb-4 mx-auto block w-64" />
+  </div>
+  <div>
     <h3 class="text-xl font-bold">echoes</h3>
     <div class="text-sm font-medium pb-3 text-right">
-      <a href="https://echoes-livid.vercel.app/" class="text-blue-600 hover:text-blue-800">echoes-livid.vercel.app/</a>
+      <div class="text-blue-400">https://echoes-livid.vercel.app/</div>
     </div>
     <div class="text-left">
+      <div class="text-sm mb-2">VRMモデルとAI を介してリアルタイムに音声会話</div>
+      <h5 class="font-bold">使用技術スタック</h5>
       <ul class="list-disc list-inside mb-3 text-sm">
-        <li>3D モデルとの会話機能・音声合成</li>
-        <li>Next.js / Three.js / AI SDK / PlayWright</li>
+        <li>Next.js / Zustand / AI SDK / Three.js</li>
       </ul>
     </div>
   </div>
-  <div>
-    <div class="text-left">
-      <img src="./images/cclog.jpeg" alt="LT Registration Site" class="rounded-2xl mb-4 mx-auto block w-72" />
-      <h3 class="text-xl font-bold">cclog</h3>
-      <div class="text-sm font-medium pb-3 text-right">
-        <a href="https://github.com/lvncer/cclog" class="text-blue-600 hover:text-blue-800">@lvncer/cclog</a>
-      </div>
-      <ul class="list-disc list-inside mb-3 text-sm">
-        <li>Claude Code 会話履歴ブラウザー</li>
-        <li>TypeScript</li>
-      </ul>
-    </div>
+</div>
+
+<div class="flex items-center justify-start pl-32 pt-6 gap-16">
+  <div class="flex-shrink-0">
+    <div class="font-semibold mb-2">それ以外にも</div>
+    <ul class="list-disc list-inside mb-3 text-sm">
+      <li>Claude CodeのCLI会話履歴ブラウザーの npm パッケージ「cclog」</li>
+      <li>マークダウンファイルから名刺を作成できる npm パッケージ「name-card」</li>
+      <li>ブックマーク管理アプリ「bookmarks」</li>
+      <li>シンプルなSNSアプリ「NextSNS」...</li>
+    </ul>
   </div>
 </div>
 
@@ -237,14 +183,77 @@ fonts:
   <h1 class="text-4xl font-bold">チーム開発作品 1.</h1>
 </div>
 
+<div class="flex items-center justify-center gap-16">
+  <div class="flex-shrink-0">
+    <h3 class="text-xl font-bold">社内工数管理システム worktrack</h3>
+    <div class="flex items-end justify-end text-sm text-right text-blue-400 mb-3">
+      zenn.dev/tkszenn/articles/1d5e63cfd0d5bc
+    </div>
+    <div class="text-left">
+      <h5 class="font-bold">使用技術スタック</h5>
+      <ul class="list-disc list-inside text-sm">
+        <li>Amazon Linux / Apache / MySQL (RDS) / PHP</li>
+      </ul>
+      <h5 class="font-bold">担当</h5>
+      <ul class="list-disc list-inside text-sm">
+        <li>プロダクトマネージャー、DB設計</li>
+      </ul>
+      <h5 class="font-bold">期間</h5>
+      <ul class="list-disc list-inside text-sm">
+        <li>約 4 ヶ月</li>
+      </ul>
+      <h5 class="font-bold">特徴</h5>
+      <ul class="list-disc list-inside text-sm">
+        <li>企業連携授業にて受託開発</li>
+        <li>複雑な権限管理システムの実装</li>
+        <li>全データ変更の履歴追跡機能</li>
+        <li>今後は実運用環境での保守・運用</li>
+      </ul>
+    </div>
+  </div>
+  <div class="flex-shrink-0 text-center justify-center">
+    <img src="./images/37688635-167B-4C8B-99BD-FAE96BFCDEEC_1_201_a.jpeg" class="rounded-2xl mb-4 mx-auto block w-72" />
+    <img src="./images/BCAB75A7-E25F-41CB-9206-A8C601108BE5_1_201_a.jpeg" class="rounded-2xl mb-4 mx-auto block w-72" />
+  </div>
+</div>
+
+---
+
+<div class="flex items-center justify-start gap-8 p-8">
+  <h1 class="text-4xl font-bold">チーム開発作品 2. 「ドロカツ」</h1>
+</div>
+
+<div class="flex items-center justify-center gap-8 mb-4">
+  <div>
+    <img src="https://static.wixstatic.com/media/852b40_2eb450ee20d7448381dc49f0ed6133a8~mv2.jpg/v1/fill/w_740,h_417,fp_0.50_0.50,q_90/852b40_2eb450ee20d7448381dc49f0ed6133a8~mv2.webp" alt="drokatsu-all" class="rounded-2xl mb-4 mx-auto block w-96" />
+  </div>
+  <div>
+    <img src="https://www.siw.ac.jp/wp-content/uploads/2024/05/FDDA22A3-9D70-4E8D-A898-5E74BB3F1BD3-1.jpeg" alt="win-drokatsu" class="rounded-2xl mb-4 mx-auto block w-82" />
+  </div>
+</div>
+
+<div class="flex items-center justify-start pl-32 gap-16">
+  <div class="flex-shrink-0">
+    <div class="font-semibold mb-1">全国大会 プログラミング部門優勝</div>
+    <div class="font-light mb-1">Pythonを用いてドローン「CoDrone EDU」を操作</div>
+    <div class="font-light">自動操縦の精度や、課題クリアにかかった時間などで競う</div>
+  </div>
+</div>
+
+---
+
+<div class="flex items-center justify-start gap-8 p-8">
+  <h1 class="text-4xl font-bold">チーム開発作品 3.「ライブ演出システム LiveFx」</h1>
+</div>
+
 <div class="flex items-center justify-center gap-12">
   <div class="flex-shrink-0 text-center justify-center">
     <img src="https://www.siw.ac.jp/wp-content/uploads/2025/04/aba1dd9afd994bc383f5259806be7bb4.jpeg" class="rounded-2xl mb-4 mx-auto block w-86" />
   </div>
   <div class="flex-shrink-0">
-    <h3 class="text-xl font-bold">ライブ演出システム livefx</h3>
-    <div class="text-sm font-medium pl-18 pb-3 text-right">
-      <a href="https://zenn.dev/tkszenn/articles/2e73439f678488/" class="text-blue-600 hover:text-blue-800">zenn.dev/tkszenn/articles/2e73439f678488/</a>
+    <h3 class="text-xl font-bold"></h3>
+    <div class="text-sm font-medium pl-18 pb-3 text-right text-blue-400">
+      zenn.dev/tkszenn/articles/2e73439f678488/
     </div>
     <div class="text-left">
       <h5 class="font-bold">使用技術スタック</h5>
@@ -271,52 +280,34 @@ fonts:
   </div>
 </div>
 
-<div class="flex items-end justify-end text-xs">
-  <a href="https://www.siw.ac.jp/archives/news/6050" class="text-gray-400">https://www.siw.ac.jp/archives/news/6050</a>
-</div>
-
 ---
 
 <div class="flex items-center justify-start gap-8 p-8">
-  <h1 class="text-4xl font-bold">チーム開発作品 2.</h1>
+  <h1 class="text-4xl font-bold">自己PR</h1>
 </div>
 
-<div class="flex items-center justify-center gap-16">
+<div class="flex items-center justify-center">
   <div class="flex-shrink-0">
-    <h3 class="text-xl font-bold">社内工数管理システム worktrack</h3>
-    <div class="flex items-end justify-end text-sm text-right mb-3">
-      <a href="https://zenn.dev/tkszenn/articles/1d5e63cfd0d5bc" class="text-blue-400">zenn.dev/tkszenn/articles/1d5e63cfd0d5bc</a>
-    </div>
-    <div class="text-left">
-      <h5 class="font-bold">使用技術スタック</h5>
-      <ul class="list-disc list-inside text-sm">
-        <li>Amazon Linux / Apache / MySQL (RDS) / PHP</li>
-      </ul>
-      <h5 class="font-bold">担当</h5>
-      <ul class="list-disc list-inside text-sm">
-        <li>プロダクトマネージャー、DB設計</li>
-      </ul>
-      <h5 class="font-bold">期間</h5>
-      <ul class="list-disc list-inside text-sm">
-        <li>約 4 ヶ月</li>
-      </ul>
-      <h5 class="font-bold">特徴</h5>
-      <ul class="list-disc list-inside text-sm">
-        <li>企業連携授業にて受託開発</li>
-        <li>複雑な権限管理システムの実装</li>
-        <li>全データ変更の履歴追跡機能</li>
-        <li>実運用環境での保守・運用</li>
-      </ul>
-    </div>
+    <ol class="list-disc list-inside mb-4">
+      <li>コミュニケーション能力の高さ
+        <ul class="list-disc list-inside mb-4">
+          <li>チーム開発でメンバー間でのスムーズなやりとり</li>
+          <li>クライアントとの折衝経験</li>
+        </ul>
+      </li>
+      <li>主体性・誠実性の高さ
+        <ul class="list-disc list-inside mb-4">
+          <li>個人開発でAIなどの最新情報を常にキャッチアップ</li>
+          <li>オープンな会話を推進し、インシデント発生時は即時連絡</li>
+        </ul>
+      </li>
+      <li>豊富な経験
+        <ul class="list-disc list-inside mb-4">
+          <li>さまざまなプロジェクトマネージャーを担当</li>
+          <li>学校内外でフルスタックに開発を経験</li>
+          <li>学内の授業アシスタントで後輩にサポート</li>
+        </ul>
+      </li>
+    </ol>
   </div>
-  <div class="flex-shrink-0 text-center justify-center">
-    <img src="./images/37688635-167B-4C8B-99BD-FAE96BFCDEEC_1_201_a.jpeg" class="rounded-2xl mb-4 mx-auto block w-72" />
-    <img src="./images/BCAB75A7-E25F-41CB-9206-A8C601108BE5_1_201_a.jpeg" class="rounded-2xl mb-4 mx-auto block w-72" />
-  </div>
-</div>
-
----
-
-<div class="flex flex-col justify-center items-center h-full text-center">
-  <h1 class="text-4xl font-bold mb-4">ご清聴ありがとうございました</h1>
 </div>
