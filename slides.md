@@ -16,7 +16,7 @@ fonts:
 
 <div class="flex items-center justify-center gap-16 pl-24">
   <div class="flex-shrink-0">
-    <img src="./images/D078A827-B55A-4996-89F9-220B74E15FC1_4_5005_c.jpeg" alt="Profile" class="rounded-full w-64 h-64" />
+    <img src="./images/avator.jpeg" alt="Profile" class="rounded-full w-64 h-64" />
   </div>
   <div class="flex-grow">
     <ul class="list-disc list-inside">
@@ -103,7 +103,7 @@ fonts:
 
 <div class="flex items-start justify-start pl-28 pb-2 gap-24">
   <div>
-    <img src="./images/0B644784-C52B-485E-A3AA-7F4A582CDBC1_1_201_a.jpeg" class="rounded-2xl mb-4 mx-auto block w-64" />
+    <img src="./images/lt_1.jpeg" class="rounded-2xl mb-4 mx-auto block w-64" />
   </div>
   <div>
     <h3 class="text-xl font-bold"></h3>
@@ -136,7 +136,7 @@ fonts:
     </div>
   </div>
   <div class="flex-shrink-0 text-center">
-    <img src="./images/E560BB0A-2406-4D92-B00E-9EF5FD116CDE_1_201_a.jpeg" alt="LT Registration Site" class="rounded-2xl mb-4 mx-auto block w-72" />
+    <img src="./images/lt_2.jpeg" alt="LT Registration Site" class="rounded-2xl mb-4 mx-auto block w-72" />
   </div>
 </div>
 
@@ -165,10 +165,12 @@ fonts:
   </div>
 </div>
 
-<div class="flex items-center justify-start pl-32 pt-6 gap-16">
+<div class="flex items-center justify-start pl-32 pt-2 gap-16">
   <div class="flex-shrink-0">
     <div class="font-semibold mb-2">それ以外にも</div>
     <ul class="list-disc list-inside mb-3 text-sm">
+      <li>VRM モデルを AI が自然言語で制御できる MCP リモートサーバー「VRMCP」</li>
+      <li>AI との会話練習でコミュニケーション力を向上させる Web アプリ「kaiwa-dash」</li>
       <li>Claude CodeのCLI会話履歴ブラウザーの npm パッケージ「cclog」</li>
       <li>マークダウンファイルから名刺を作成できる npm パッケージ「name-card」</li>
       <li>ブックマーク管理アプリ「bookmarks」</li>
@@ -212,8 +214,8 @@ fonts:
     </div>
   </div>
   <div class="flex-shrink-0 text-center justify-center">
-    <img src="./images/37688635-167B-4C8B-99BD-FAE96BFCDEEC_1_201_a.jpeg" class="rounded-2xl mb-4 mx-auto block w-72" />
-    <img src="./images/BCAB75A7-E25F-41CB-9206-A8C601108BE5_1_201_a.jpeg" class="rounded-2xl mb-4 mx-auto block w-72" />
+    <img src="./images/worktrack_1.jpeg" class="rounded-2xl mb-4 mx-auto block w-72" />
+    <img src="./images/worktrack_2.jpeg" class="rounded-2xl mb-4 mx-auto block w-72" />
   </div>
 </div>
 
