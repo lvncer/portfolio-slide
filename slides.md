@@ -148,18 +148,15 @@ fonts:
 
 <div class="flex items-center justify-center gap-18">
   <div>
-    <img src="./images/echoes.jpeg" class="rounded-2xl mb-4 mx-auto block w-64" />
+    <img src="./images/coeur.png" class="rounded-2xl mb-4 mx-auto block w-64" />
   </div>
   <div>
-    <h3 class="text-xl font-bold">echoes</h3>
-    <div class="text-sm font-medium pb-3 text-right">
-      <div class="text-blue-400">https://echoes-livid.vercel.app/</div>
-    </div>
+    <h3 class="text-xl font-bold pb-8">coeur</h3>
     <div class="text-left">
-      <div class="text-sm mb-2">VRMモデルとAI を介してリアルタイムに音声会話</div>
+      <div class="text-sm mb-2">3D モデルを AI が自然言語で制御できるリモート MCP サーバー</div>
       <h5 class="font-bold">使用技術スタック</h5>
       <ul class="list-disc list-inside mb-3 text-sm">
-        <li>Next.js / Zustand / AI SDK / Three.js</li>
+        <li>React / Three.js / Express / Redis / Railway</li>
       </ul>
     </div>
   </div>
@@ -169,8 +166,8 @@ fonts:
   <div class="flex-shrink-0">
     <div class="font-semibold mb-2">それ以外にも</div>
     <ul class="list-disc list-inside mb-3 text-sm">
-      <li>VRM モデルを AI が自然言語で制御できる MCP リモートサーバー「VRMCP」</li>
       <li>AI との会話練習でコミュニケーション力を向上させる Web アプリ「kaiwa-dash」</li>
+      <li>VRMモデルとAI を介してリアルタイムに音声で会話できる Web アプリ「echoes」</li>
       <li>Claude CodeのCLI会話履歴ブラウザーの npm パッケージ「cclog」</li>
       <li>マークダウンファイルから名刺を作成できる npm パッケージ「name-card」</li>
       <li>ブックマーク管理アプリ「bookmarks」</li>
